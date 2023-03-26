@@ -1,0 +1,23 @@
+responsive => menyesuaikan dengan ukuran device
+
+mediaQuery => to know the actual size.
+width: MediaQuery.of(context).size.width*0.5 => width = 50%
+
+Flexible => to set flex
+Flexible{
+    flex: [value],
+    child: {child}
+}
+
+Expanded => memenuhi sisa space yang ada
+
+FittedBox => membuat elemen yang ada di dalamnya mempunyai lebar maksimal fit dengan parentnya
+
+wrap => membuat eelemen di wrap ke line selanjutnya
+
+layoutBuilder => mengambil ukuran parent
+
+Constraint => container which can set min & max width/height
+
+========================
+adaptive => membedakan layout sesuai dengan device
